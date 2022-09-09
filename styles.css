@@ -1,0 +1,32 @@
+body {
+    background-color: #000;
+}
+
+#gridContainer {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 400px;
+    height: 400px;
+    margin : auto;
+	position: absolute;
+	top : 0;
+	right : 0;
+	bottom : 0;
+	left : 0;
+    
+}
+
+.grid-item {
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.symbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: -50, -50%;
+}
